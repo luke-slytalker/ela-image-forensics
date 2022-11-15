@@ -6,9 +6,9 @@ TO SETUP/ REQUIREMENTS:
  - Python 3
  - Pillow
  
- pip install -r requirements.txt
+ `pip install -r requirements.txt`
  
- python3 ela.py path\to\image.jpg
+ `python3 ela.py 'path\to\image.jpg'`
  
  
  You can alter the ALPHA and SCALE settings to change up the ELA levels/intensity.
