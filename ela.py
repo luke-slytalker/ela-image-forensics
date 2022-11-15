@@ -2,10 +2,10 @@ import sys
 from PIL import Image, ImageChops
 
 
-inp = sys.argv[1]       # path to image you'd like to analyze
+if len(sys.argv) > 1:        # if image path is entered, assign in to variable inp 
+    inp = sys.argv[1]
 
-
-if inp is None:         # if no image path is entered, use a default one we included
+else:                        # if no image path is entered, use a default one we included
     print("No image supplied -- using the fake lotto ticket example.\n")
     inp = './lotto-fake.jpg'
 
